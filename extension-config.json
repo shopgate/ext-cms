@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate/ext-cms",
+  "configuration": {
+    "navMenu": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": {
+        "shipping": true,
+        "payment": true,
+        "terms": true,
+        "privacy": true,
+        "return-policy": true,
+        "imprint": true
+      },
+      "params": {
+        "type": "json",
+        "label": "Navigation menu entries",
+        "required": true,
+        "options": {
+          "placeholder": "{\"shipping\":true,\"payment\":true,\"terms\":true,\"privacy\":true,\"return-policy\":true,\"imprint\":true}"
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "id": "HideNavigationEntries",
+      "path": "frontend/components/MenuEntry.jsx",
+      "target": [
+        "nav-menu.shipping",
+        "nav-menu.payment",
+        "nav-menu.terms",
+        "nav-menu.privacy",
+        "nav-menu.return-policy",
+        "nav-menu.imprint"
+      ],
+      "type": "portals"
+    }
+  ]
+}

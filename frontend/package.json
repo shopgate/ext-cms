@@ -1,0 +1,20 @@
+{
+  "name": "@shopgate/ext-cms",
+  "version": "1.0.0",
+  "description": "Shopgate Connect cms extension",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shopgate/ext-cms.git"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ignore-path ../.gitignore --ext .js --ext .jsx ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@shopgate/pwa-common": "5.9.0-beta.10",
+    "@shopgate/pwa-common-commerce": "5.9.0-beta.10",
+    "@shopgate/eslint-config": "5.9.0-beta.10",
+    "eslint": "^4.17.0"
+  }
+}
