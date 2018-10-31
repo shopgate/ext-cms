@@ -1,5 +1,5 @@
 {
-  "name": "@shopgate/ext-cms",
+  "name": "@shopgate/cms",
   "version": "1.0.0",
   "description": "Shopgate Connect cms extension",
   "repository": {
