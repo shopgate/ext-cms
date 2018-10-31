@@ -4,12 +4,12 @@ import config from './../config';
 
 const {
   navMenu: {
-    shipping,
-    payment,
-    terms,
-    privacy,
-    'return-policy': returnPolicy,
-    imprint,
+    shipping = true,
+    payment = true,
+    terms = true,
+    privacy = true,
+    'return-policy': returnPolicy = true,
+    imprint = true,
   } = {},
 } = config;
 
