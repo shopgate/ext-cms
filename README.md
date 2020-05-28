@@ -9,7 +9,7 @@ This extension contains all config to show cms menu in navigation drawer, etc
 Set the following values in your Shopgate Connect Admin:
 * `navMenu` - (object) Configuration of which items to show in the navigation drawer.
   * `terms` - (true/false) Whether or not to show the "Terms" entry.
-  * `imprint` - (true/false) Whether or not to show the "Imprint" entry.
+  * `imprint` - (true/false) Whether or not to show the "Imprint(DE)/Contact us(US)" entry.
   * `payment` - (true/false) Whether or not to show the "Payment" entry.
   * `privacy` - (true/false) Whether or not to show the "Privacy" entry.
   * `shipping` - (true/false) Whether or not to show the "Shipping" entry.
