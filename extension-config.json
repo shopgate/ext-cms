@@ -28,6 +28,7 @@
       "id": "HideNavigationEntries",
       "path": "frontend/components/MenuEntry.jsx",
       "target": [
+        "nav-menu.store-information",
         "nav-menu.shipping",
         "nav-menu.payment",
         "nav-menu.terms",

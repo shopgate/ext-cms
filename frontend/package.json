@@ -12,9 +12,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@shopgate/pwa-common": "5.9.0-beta.10",
-    "@shopgate/pwa-common-commerce": "5.9.0-beta.10",
-    "@shopgate/eslint-config": "5.9.0-beta.10",
+    "@shopgate/engage": "^5.9.0",
+    "@shopgate/eslint-config": "^5.9.0",
     "eslint": "^4.17.0"
   }
 }
